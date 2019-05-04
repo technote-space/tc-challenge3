@@ -1,0 +1,5 @@
+func main()
+	for i(1, 150)
+		do cui@print((i < 100 & (i % 3 = 0 | i % 10 = 3) ?(i.toStrFmt("02d") ~ "!", i.toStrFmt("03d"))) ~ "\n")
+	end for
+end func
